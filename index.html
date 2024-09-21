@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="BR-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="conversor.css">
+    <title>Conversor</title>
+</head>
+<body>
+    <div class="conteinerCoversor">
+        <form>
+            <h4>Conversor de moedas</h4>
+            <input type="number" placeholder="Quantia a converter">
+            <div class="conteiner_box">
+                <div class="de">
+                    <span>De</span>
+                    <select name="" id="selectDE"></select>
+                </div>
+                <div class="icone">=></div>
+                <div class="para">
+                    <span>Para</span>
+                    <select id="selectPARA"></select>
+                </div>
+            </div>
+            <div class="resultado">
+                <span>0 USD = 0 USD</span>
+            </div>
+            <button>Converter</button>
+            <p style="color: red; font-size: 14px;" class="msgError"></p>
+        </form>
+    </div>
+    <div class="imgs"></div>
+
+    <script src="conversor.js"></script>
+</body>
+</html>
